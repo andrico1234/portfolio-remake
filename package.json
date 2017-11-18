@@ -1,0 +1,27 @@
+{
+  "name": "portfolio-remake",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "next start",
+    "dev": "next",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^4.1.4",
+    "normalize.css": "^7.0.0",
+    "postcss-nested": "^2.1.2",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "styled-jsx-plugin-postcss": "^0.1.1"
+  },
+  "postcss": {
+    "plugins": {
+      "postcss-nested": {}
+    }
+  }
+}
