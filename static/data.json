@@ -1,0 +1,48 @@
+{
+  "portfolioProjects": [
+    {
+      "name": "Web App Dashboard",
+      "image": "img/dashboard-screen.png",
+      "brief": "A responsive Web App Dashboard made using JavaScript, sass and jQuery. Also uses additional JS libraries.",
+      "description": "This project combines a sleek and modern design with sass, JavaScript and jQuery to create a demo dashboard for a web application. The page was styled using sass and JavaScript was implemented for interactivity including graphs, autocomplete and local storage. The site is also responsive and works across all major browsers.",
+      "destination": "http://andricokaroulla.com/web-app-dashboard-9/"
+    },
+    {
+      "name": "Interactive Video Player",
+      "image": "img/video-player-screen.png",
+      "brief": "A multi-function Video Player created using JavaScript, sass and jQuery. Functions include speed adjustment and captions.",
+      "description": "An interactive video player coded from scratch. After being given the video file I styled the website using sass while the functions were created using JavaScript and jQuery. These features include speed adjustment, clickable captions, buffer and seek bar implementation and much more.",
+      "destination": "http://andricokaroulla.com/interactive-video-player-7/"
+    },
+    {
+      "name": "Photo Gallery",
+      "image": "img/photo-gallery-screen.png",
+      "brief": "This responsive Web Gallery uses JavaScript and jQuery for search and overlay functionality.",
+      "description": "A responsive web gallery that allows the user to click on a picture. Clicking the picture displays a light box which in turn displays a caption for its corresponding image. The user can navigate the lightbox using both the mouse or keyboard. The lightbox was coded solely using JavaScript and a plugin was not used. This project also features a real-time search feature also made using JavaScript.",
+      "destination": "http://andricokaroulla.com/photo-gallery-4/"
+    },
+    {
+      "name": "Registration Form",
+      "image": "img/interactive-form-screen.png",
+      "brief": "A Registration Form made using HTML5. Utilised modern accessibility tools and CSS transitions for improved UX.",
+      "description": "This project is a responsive web form. It uses modern HTML5 in the form of aria properties and are used to improve the form's accessibility making it more user-friendly especially for visually impaired users. Pseudo-classes were featured heavily in the project and can be seen through CSS transitions on active and hovered items.",
+      "destination": "http://andricokaroulla.com//online-registration-form-3/"
+    },
+    {
+      "name": "API Gallery",
+      "image": "img/api-gallery-screen.png",
+      "brief": "An interactive API Gallery that sends AJAX requests to a Pokemon API.",
+      "description": "This project sends AJAX requests to a Pokemon API and a Star Wars API. The gallery displays the information received in a responsive overlay that allows the user to scroll through the gallery items and to also sort the order of the items. ",
+      "destination": "http://andricokaroulla.com/api-gallery-10/"
+    }
+  ],
+  "aboutMe": [
+    {
+      "about": "About",
+      "profilePic": "img/profile-picture.jpg",
+      "aboutmeTitle": "London Based Front-End Web Developer",
+      "aboutmeParagraphOne": "Treehouse TechDegree graduate who specialises in responsive Front-end Development. Andrico's projects are optimised for both mobile and tablet and are compatible in a variety of browsers. Andrico also commercial experience working with AngularJs and C#. ",
+      "aboutmeParagraphTwo": "Other interests included playing music, specifically Hard Rock and Jazz. Andrico also regularly attends courses snd classes relating to all aspects of web development and has hopes of becoming full stack. You can get in touch through social media for any freelance work or other enquiries."
+    }
+  ]
+}
