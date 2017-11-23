@@ -1,7 +1,7 @@
 import NavBar from '../navbar/navbar';
 
 export default () =>
-    <div>
+    <div className="header-wrapper">
         <header>
             <NavBar />
             <h1>
@@ -16,9 +16,33 @@ export default () =>
         </header>
 
         <style jsx>{`
-            header {
+            .header-wrapper {
                 background: #34495d;
+            }
+
+            header {
                 color: white;
+                height: 380px;
+                margin: 0 auto;
+                padding-top: 30px;
+                position: relative;
+                width: 90%;
+
+                @media (min-width: 768px) {
+                    height: 340px;
+                }
+
+                h1 {
+                    padding-bottom: 20px;
+                }
+
+                p {
+                    line-height: 1.8;
+
+                    @media (min-width: 768px) {
+                        width: 60%;
+                    }
+                }
             }
         `}</style>
     </div>

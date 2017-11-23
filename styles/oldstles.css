@@ -1,0 +1,340 @@
+button {
+    font-family: "Lato", sans-serif;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+.aboutOverlay-close:hover, .nav-class li:hover, .modalClose:hover, .nextButtonDiv:hover {
+    cursor: pointer;
+}
+
+.arrow-down-container {
+    bottom: 0;
+    margin: 0 auto;
+    padding: 30px 0 30px 0;
+    position: absolute;
+    text-align: left;
+    width: 90%;
+}
+
+.arrow-down-container .arrow-down {
+    transform: rotate(180deg);
+    width: 30px;
+}
+
+.js-transition, .work-item button, .work-item h3, .work-item p {
+    color: #34495d;
+    position: absolute;
+    opacity: 0;
+    transition: opacity .25s linear;
+}
+
+.work-item {
+    height: auto;
+    margin: 0 0 20px 0;
+    position: relative;
+    width: 100%;
+}
+
+.work-item button {
+    background: none;
+    left: 20px;
+    bottom: 20px;
+    border: 1px solid #34495d;
+    padding: 10px;
+}
+
+.work-item button:active {
+    box-shadow: inset 0 0 3px 1px rgba(0, 0, 0, 0.3);
+}
+
+.work-item h3 {
+    left: 5px;
+    top: -10px;
+    padding: 10px 20px;
+}
+
+.work-item img {
+    width: 100%;
+    opacity: 1;
+    transition: opacity .25s linear;
+    height: 100%;
+}
+
+.work-item img:hover {
+    opacity: 0.5;
+}
+
+.work-item p {
+    font-size: 0.8em;
+    font-weight: 500;
+    left: 5px;
+    top: 30px;
+    padding: 10px 20px;
+}
+
+.work-item:hover img {
+    opacity: 0.4;
+}
+
+.work-item:hover p, .work-item:hover h3, .work-item:hover button {
+    opacity: 1;
+}
+
+@media screen and (min-width: 768px) {
+    .portfolio-list li {
+        display: inline-block;
+        width: 47.5%;
+    }
+
+    .portfolio-list li:nth-child(even) {
+        float: right;
+    }
+
+    .portfolio-list li:last-child {
+        padding-bottom: 40px;
+    }
+}
+
+.footer {
+    background-color: #e8535b;
+}
+
+.footer-wrapper {
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 90%;
+}
+
+@media screen and (min-width: 1020px) {
+    .footer-wrapper h1 {
+        text-align: center;
+    }
+}
+
+.arrow-up-container {
+    margin: 0 auto;
+    padding: 10px 0 20px 0;
+    text-align: right;
+    width: 100%;
+}
+
+.arrow-up-container .arrow-up {
+    width: 30px;
+}
+
+.footer-svgImages {
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+}
+
+.footer-svgImages img {
+    padding: 5px 10px;
+    width: 30px;
+}
+
+.footer-button-container {
+    padding: 10px 0 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.footer-button-container button {
+    background-color: #e8535b;
+    border: 1px solid white;
+    height: 45px;
+    width: 135px;
+}
+
+.footer-button-container button:active {
+    background-color: #e53d46;
+    box-shadow: inset 0 0 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+#mailImage {
+    padding-bottom: 7px;
+}
+
+hr {
+    width: 80%;
+}
+
+.buttonDivWrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.nextButtonDiv, .previousButtonDiv {
+    display: inline-block;
+    width: 40%;
+}
+
+.nextButtonDiv h3, .previousButtonDiv h3 {
+    display: inline-block;
+    font-size: 0.8em;
+}
+
+.nextButtonDiv img, .previousButtonDiv img {
+    margin-bottom: -5px;
+    padding: 0 5px;
+    width: 20px;
+}
+
+.nextButtonDiv img {
+    padding-left: 5px;
+    transform: rotate(90deg);
+}
+
+.previousButtonDiv img {
+    transform: rotate(270deg);
+}
+
+.mainOverlay, .aboutOverlay {
+    background-color: rgba(0, 0, 0, 0.77);
+    display: none;
+    height: 100%;
+    left: 0;
+    overflow-y: scroll;
+    padding-top: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.modalClose, .aboutOverlay-close {
+    float: right;
+    margin-top: 20px;
+    padding-right: 5%;
+    width: 20px;
+}
+
+.modalDescriptionWrapper {
+    text-align: center;
+}
+
+.modalHeader, .aboutOverlay-header {
+    color: #e8535b;
+    display: inline-block;
+    font-size: 1.2em;
+    margin-top: 20px;
+    padding-left: 5%;
+    width: 80%;
+}
+
+.modalProjectDescription, .aboutOverlay-descriptionOne, .aboutOverlay-descriptionTwo {
+    color: #34495d;
+    font-size: 0.8em;
+    letter-spacing: 0;
+    margin: 0 auto;
+    padding: 5px;
+    width: 90%;
+}
+
+.aboutOverlay-descriptionWrapper {
+    margin: 10px auto;
+}
+
+@media screen and (min-width: 768px) {
+    .aboutOverlay-contentWrapper {
+        display: inline-block;
+        margin: 10px auto 10px 0;
+        width: 40%;
+    }
+}
+
+.modalProjectImageWrapper, .aboutOverlayProject-imageWrapper {
+    text-align: center;
+}
+
+.aboutOverlayProject-imageWrapper {
+    text-align: center;
+    margin: 0 5%;
+}
+
+@media screen and (min-width: 768px) {
+    .aboutOverlayProject-imageWrapper {
+        display: inline-block;
+        height: 100%;
+        width: 50%;
+        margin-right: 0;
+    }
+}
+
+.modalProjectImage, .aboutOverlay-profilePicture {
+    border: 2px solid #34495d;
+    border-radius: 5px;
+    width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+    .modalProjectImage, .aboutOverlay-profilePicture {
+        width: 90%;
+        max-width: 300px;
+    }
+}
+
+.aboutOverlay-profilePicture {
+    display: inline-block;
+    width: 70%;
+}
+
+@media screen and (min-width: 768px) {
+    .aboutOverlay-profilePicture {
+        width: 100%;
+    }
+}
+
+.modalSecondaryHeader, .aboutOverlay-secondaryHeader {
+    font-size: 0.9em;
+    padding-left: 5px;
+    text-align: center;
+    margin: 10px auto;
+    width: 90%;
+}
+
+.modalWrapper, .aboutOverlay-wrapper {
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: 0 auto;
+    position: static;
+    width: 90%;
+}
+
+.aboutOverlay-wrapper {
+    margin-bottom: 50px;
+}
+
+@media screen and (min-width: 768px) {
+    .aboutOverlay-wrapper {
+        margin-top: 50px;
+        max-width: 600px;
+    }
+}
+
+.visitSiteButton, .aboutOverlay-button {
+    background-color: #ffffff;
+    border: 1px solid #e8535b;
+    border-radius: 2px;
+    color: #e8535b;
+    font-size: 0.9em;
+    height: 40px;
+    margin: 10px 0;
+    width: 90px;
+}
+
+.visitSiteButton:active, .aboutOverlay-button:active {
+    box-shadow: inset 0 0 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+.aboutOverlay-button {
+    margin: 10px 5% 40px 5%;
+    padding: 5px;
+}
+
+/*# sourceMappingURL=application.css.map */

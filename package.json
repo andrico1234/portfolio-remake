@@ -12,11 +12,19 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "babel-plugin-module-resolver": "^3.0.0",
+    "babel-plugin-wrap-in-js": "^1.1.1",
+    "glob": "^7.1.2",
     "next": "^4.1.4",
+    "node-sass": "^4.7.2",
     "normalize.css": "^7.0.0",
+    "postcss-easy-import": "^3.0.0",
+    "postcss-loader": "^2.0.8",
     "postcss-nested": "^2.1.2",
+    "raw-loader": "^0.5.1",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
+    "sass-loader": "^6.0.6",
     "styled-jsx-plugin-postcss": "^0.1.1"
   },
   "postcss": {
