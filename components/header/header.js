@@ -10,9 +10,7 @@ export default () =>
             <p>
                 A JavaScript developer based in London, my work is an amalgamation of sleek and modern design with fluid interactivity.
             </p>
-            <div className="arrow-down-container">
-
-            </div>
+            <img className="arrow-down" src="static/icon-arrow-down.svg" />
         </header>
 
         <style jsx>{`
@@ -42,6 +40,13 @@ export default () =>
                     @media (min-width: 768px) {
                         width: 60%;
                     }
+                }
+
+                .arrow-down {
+                    margin: 0 auto;
+                    padding: 30px 0;
+                    transform: rotate(180deg);
+                    width: 30px;
                 }
             }
         `}</style>

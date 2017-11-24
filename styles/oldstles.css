@@ -3,26 +3,8 @@ button {
     color: #ffffff;
 }
 
-h2 {
-    font-size: 32px;
-}
-
 .aboutOverlay-close:hover, .nav-class li:hover, .modalClose:hover, .nextButtonDiv:hover {
     cursor: pointer;
-}
-
-.arrow-down-container {
-    bottom: 0;
-    margin: 0 auto;
-    padding: 30px 0 30px 0;
-    position: absolute;
-    text-align: left;
-    width: 90%;
-}
-
-.arrow-down-container .arrow-down {
-    transform: rotate(180deg);
-    width: 30px;
 }
 
 .js-transition, .work-item button, .work-item h3, .work-item p {
@@ -32,55 +14,14 @@ h2 {
     transition: opacity .25s linear;
 }
 
-.work-item {
-    height: auto;
-    margin: 0 0 20px 0;
-    position: relative;
-    width: 100%;
-}
+/*.work-item {*/
+    /*height: auto;*/
+    /*margin: 0 0 20px 0;*/
+    /*position: relative;*/
+    /*width: 100%;*/
+/*}*/
 
-.work-item button {
-    background: none;
-    left: 20px;
-    bottom: 20px;
-    border: 1px solid #34495d;
-    padding: 10px;
-}
-
-.work-item button:active {
-    box-shadow: inset 0 0 3px 1px rgba(0, 0, 0, 0.3);
-}
-
-.work-item h3 {
-    left: 5px;
-    top: -10px;
-    padding: 10px 20px;
-}
-
-.work-item img {
-    width: 100%;
-    opacity: 1;
-    transition: opacity .25s linear;
-    height: 100%;
-}
-
-.work-item img:hover {
-    opacity: 0.5;
-}
-
-.work-item p {
-    font-size: 0.8em;
-    font-weight: 500;
-    left: 5px;
-    top: 30px;
-    padding: 10px 20px;
-}
-
-.work-item:hover img {
-    opacity: 0.4;
-}
-
-.work-item:hover p, .work-item:hover h3, .work-item:hover button {
+.work-item:hover button {
     opacity: 1;
 }
 
@@ -99,22 +40,6 @@ h2 {
     }
 }
 
-.footer {
-    background-color: #e8535b;
-}
-
-.footer-wrapper {
-    margin: 0 auto;
-    padding-top: 20px;
-    width: 90%;
-}
-
-@media screen and (min-width: 1020px) {
-    .footer-wrapper h1 {
-        text-align: center;
-    }
-}
-
 .arrow-up-container {
     margin: 0 auto;
     padding: 10px 0 20px 0;
@@ -123,17 +48,6 @@ h2 {
 }
 
 .arrow-up-container .arrow-up {
-    width: 30px;
-}
-
-.footer-svgImages {
-    margin: 0 auto;
-    text-align: center;
-    width: 60%;
-}
-
-.footer-svgImages img {
-    padding: 5px 10px;
     width: 30px;
 }
 
@@ -153,10 +67,6 @@ h2 {
 .footer-button-container button:active {
     background-color: #e53d46;
     box-shadow: inset 0 0 5px 2px rgba(0, 0, 0, 0.3);
-}
-
-#mailImage {
-    padding-bottom: 7px;
 }
 
 hr {
