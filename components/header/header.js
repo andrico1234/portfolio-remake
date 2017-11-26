@@ -22,6 +22,7 @@ export default () =>
                 color: white;
                 height: 380px;
                 margin: 0 auto;
+                max-width: 1600px;
                 padding-top: 30px;
                 position: relative;
                 width: 90%;

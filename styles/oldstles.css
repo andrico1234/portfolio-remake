@@ -1,67 +1,12 @@
-button {
-    font-family: "Lato", sans-serif;
-    color: #ffffff;
-}
-
 .aboutOverlay-close:hover, .nav-class li:hover, .modalClose:hover, .nextButtonDiv:hover {
     cursor: pointer;
 }
 
-.js-transition, .work-item button, .work-item h3, .work-item p {
+.js-transition {
     color: #34495d;
     position: absolute;
     opacity: 0;
     transition: opacity .25s linear;
-}
-
-/*.work-item {*/
-    /*height: auto;*/
-    /*margin: 0 0 20px 0;*/
-    /*position: relative;*/
-    /*width: 100%;*/
-/*}*/
-
-.work-item:hover button {
-    opacity: 1;
-}
-
-@media screen and (min-width: 768px) {
-    .portfolio-list li {
-        display: inline-block;
-        width: 47.5%;
-    }
-
-    .portfolio-list li:nth-child(even) {
-        float: right;
-    }
-
-    .portfolio-list li:last-child {
-        padding-bottom: 40px;
-    }
-}
-
-.arrow-up-container {
-    margin: 0 auto;
-    padding: 10px 0 20px 0;
-    text-align: right;
-    width: 100%;
-}
-
-.arrow-up-container .arrow-up {
-    width: 30px;
-}
-
-.footer-button-container {
-    padding: 10px 0 20px 0;
-    text-align: center;
-    width: 100%;
-}
-
-.footer-button-container button {
-    background-color: #e8535b;
-    border: 1px solid white;
-    height: 45px;
-    width: 135px;
 }
 
 .footer-button-container button:active {
