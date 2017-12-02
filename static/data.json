@@ -2,19 +2,19 @@
   "portfolioProjects": [
     {
       "_id": 1,
+      "name": "Brockley Cafe Crawl",
+      "image": "fullstack-coffee-app.png",
+      "brief": "A Fullstack Node/React App that details all of the best coffee shops in Brockley",
+      "description": "This Progressive Web App works with a variety of browsers on a variety of devices. It aims to be reliable, fast and engaging using progressive functionalities like an App Shell and Service workers. The app uses Redux for state management and sends a request to the Node server to recieve data from a Mongo database.",
+      "destination": "http://www.brockleycafecrawl.co.uk/"
+    },
+    {
+      "_id": 2,
       "name": "Web App Dashboard",
       "image": "dashboard-screen.png",
       "brief": "A responsive Web App Dashboard made using JavaScript, sass and jQuery. Also uses additional JS libraries.",
       "description": "This project combines a sleek and modern design with sass, JavaScript and jQuery to create a demo dashboard for a web application. The page was styled using sass and JavaScript was implemented for interactivity including graphs, autocomplete and local storage. The site is also responsive and works across all major browsers.",
       "destination": "http://andricokaroulla.com/web-app-dashboard-9/"
-    },
-    {
-      "_id": 2,
-      "name": "Interactive Video Player",
-      "image": "video-player-screen.png",
-      "brief": "A multi-function Video Player created using JavaScript, sass and jQuery. Functions include speed adjustment and captions.",
-      "description": "An interactive video player coded from scratch. After being given the video file I styled the website using sass while the functions were created using JavaScript and jQuery. These features include speed adjustment, clickable captions, buffer and seek bar implementation and much more.",
-      "destination": "http://andricokaroulla.com/interactive-video-player-7/"
     },
     {
       "_id": 3,
@@ -34,11 +34,19 @@
     },
     {
       "_id": 5,
-      "name": "API Gallery",
-      "image": "api-gallery-screen.png",
-      "brief": "An interactive API Gallery that sends AJAX requests to a Pokemon API.",
-      "description": "This project sends AJAX requests to a Pokemon API and a Star Wars API. The gallery displays the information received in a responsive overlay that allows the user to scroll through the gallery items and to also sort the order of the items. ",
-      "destination": "http://andricokaroulla.com/api-gallery-10/"
+      "name": "Realtime Chat App",
+      "image": "realtime-chat-app.png",
+      "brief": "A Real Time Chat application that allows multiple users over the internet to communicate with one another",
+      "description": "This project uses Socket.IO (WebSockets) with a Node backend to communicate with the client-side. This allows multiple users to communicate with each over an internet browser. Key features include username functionality, separate rooms, member list and user location information using the GoogleMaps API.",
+      "destination": "https://rico-chat-app.herokuapp.com/"
+    },
+    {
+      "_id": 6,
+      "name": "Interactive Video Player",
+      "image": "video-player-screen.png",
+      "brief": "A multi-function Video Player created using JavaScript, sass and jQuery. Functions include speed adjustment and captions.",
+      "description": "An interactive video player coded from scratch. After being given the video file I styled the website using sass while the functions were created using JavaScript and jQuery. These features include speed adjustment, clickable captions, buffer and seek bar implementation and much more.",
+      "destination": "http://andricokaroulla.com/interactive-video-player-7/"
     }
   ],
   "aboutMe": [
