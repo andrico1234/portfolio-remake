@@ -30,13 +30,14 @@ export default (props) => (
                 }
 
                 button {
-                    background: white;
+                    background: transparent;
                     border: 1px solid #34495d;
                     border-radius: 1px;
+                    bottom: 20px;
                     color: #34495d;
                     left: 20px;
                     padding: 10px;
-                    position: relative;
+                    position: absolute;
 
                     &:active {
                         box-shadow: inset 0 0 3px 1px rgba(0, 0, 0, 0.3);
