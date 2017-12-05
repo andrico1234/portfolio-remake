@@ -215,7 +215,7 @@ a {
   }
 }
 
-h1, h2, li, p {
+h1, h2, h3, li, p {
   font-family: "Lato", sans-serif;
 }
 
@@ -227,4 +227,8 @@ p {
 
 ul {
   list-style: none;
+}
+
+.ReactModal__Body--open {
+  overflow: hidden;
 }

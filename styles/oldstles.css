@@ -49,26 +49,6 @@ hr {
     transform: rotate(270deg);
 }
 
-.mainOverlay, .aboutOverlay {
-    background-color: rgba(0, 0, 0, 0.77);
-    display: none;
-    height: 100%;
-    left: 0;
-    overflow-y: scroll;
-    padding-top: 20px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 2;
-}
-
-.modalClose, .aboutOverlay-close {
-    float: right;
-    margin-top: 20px;
-    padding-right: 5%;
-    width: 20px;
-}
-
 .modalDescriptionWrapper {
     text-align: center;
 }

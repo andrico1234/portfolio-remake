@@ -1,14 +1,23 @@
-export default (props) => (
-    <li className="work-item">
-        <img src={`static/${props.image}`}/>
-        <div className="content-container">
-            <h3>{props.name}</h3>
-            <p>{props.brief}</p>
-            <button>Learn More.</button>
-        </div>
+import { Component } from 'react';
 
-        <style jsx>{`
+class ProjectCard extends Component {
+
+    handleClick = () => {
+        this.props.onClick(this.props.project._id);
+    };
+
+    render() {
+        return (
+            <li onClick={this.handleClick} className="work-item">
+                <img src={`static/${this.props.project.image}`}/>
+                <div className="content-container">
+                    <h3>{this.props.project.name}</h3>
+                    <p>{this.props.project.brief}</p>
+                    <button>Learn More.</button>
+                </div>
+                <style jsx>{`
             .work-item {
+                cursor: pointer;
                 display: grid;
                 grid-template-columns: 100%;
                 grid-template-rows: 100%;
@@ -70,5 +79,9 @@ export default (props) => (
                 }
             }
         `}</style>
-    </li>
-)
+            </li>
+        )
+    }
+}
+
+export default ProjectCard;

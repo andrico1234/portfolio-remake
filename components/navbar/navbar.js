@@ -19,7 +19,11 @@ export default () => <nav>
 
             li {
                 display: inline-block;
-                padding: 5px 15px;
+                margin: 5px 15px;
+
+                &:hover {
+                    cursor: pointer;
+                }
             }
         }
         `}</style>
