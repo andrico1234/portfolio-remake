@@ -9,7 +9,8 @@ const modalStyles = {
     content: {
         background: 'white',
         borderRadius: '2px',
-        bottom: '-200px',
+        bottom: 'auto',
+        minHeight: 'fit-content',
         left: '50%',
         marginRight: '-50%',
         maxWidth: '800px',
@@ -17,7 +18,7 @@ const modalStyles = {
         overflow: 'auto',
         padding: '20px',
         position: 'absolute',
-        top: '50%',
+        top: '48%',
         transform: 'translate(-50%, -50%)',
         width: '85%'
     },
@@ -42,6 +43,8 @@ class Work extends Component {
 
         this.closeModal = this.closeModal.bind(this);
         this.openModal = this.openModal.bind(this);
+        this.nextProject = this.nextProject.bind(this);
+        this.prevProject = this.prevProject.bind(this);
     }
 
     closeModal() {
@@ -50,9 +53,19 @@ class Work extends Component {
 
     openModal(modalIndex) {
         this.setState({
-            showModal: true,
-            modalIndex
+            modalIndex,
+            showModal: true
         });
+    }
+
+    nextProject() {
+        const newIndex = this.state.modalIndex < portfolioProjects.length ? this.state.modalIndex + 1 : 1;
+        this.openModal(newIndex);
+    }
+
+    prevProject() {
+        const newIndex = this.state.modalIndex === 1 ? portfolioProjects.length : this.state.modalIndex - 1;
+        this.openModal(newIndex);
     }
 
     render() {
@@ -73,8 +86,12 @@ class Work extends Component {
                     style={modalStyles}
                     onRequestClose={this.closeModal}
                     isOpen={this.state.showModal}
-                    contentLabel="Project Modal"> <ProjectDetail modalIndex={this.state.modalIndex} details={portfolioProjects}/>
-                </ReactModal>
+                    contentLabel="Project Modal"> <ProjectDetail
+                    nextClick={this.nextProject}
+                    prevClick={this.prevProject}
+                    modalIndex={this.state.modalIndex}
+                    details={portfolioProjects}
+                /> </ReactModal>
 
                 <style jsx>{`
                     ul {
