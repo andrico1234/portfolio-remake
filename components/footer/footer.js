@@ -27,7 +27,7 @@ export default () => (
         footer {
             color: white;
             margin: 0 auto;
-            max-width: 1600px;
+            max-width: 1300px;
             width: 90%;
 
             .arrow-container {

@@ -122,12 +122,14 @@ class ProjectDetail extends Component {
                         grid-template-columns: 15% 35% 35% 15%;
 
                         h3 {
+                            cursor: pointer;
                             font-size: 0.8em;
                             margin: 0;
                             padding-top: 3px;
                         }
 
                         img {
+                            cursor: pointer;
                             padding: 0 5px;
                             width: 20px;
                         }
