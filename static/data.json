@@ -1,0 +1,81 @@
+{
+  "portfolioProjects": [
+    {
+      "_id": 1,
+      "name": "Brockley Cafe Crawl",
+      "image": "fullstack-coffee-app.png",
+      "brief": "A Fullstack Node/React App that details all of the best coffee shops in Brockley",
+      "description": "This Progressive Web App works with a variety of browsers on a variety of devices. It aims to be reliable, fast and engaging using progressive functionalities like an App Shell and Service workers. The app uses Redux for state management and sends a request to the Node server to recieve data from a Mongo database.",
+      "destination": "http://www.brockleycafecrawl.co.uk/"
+    },
+    {
+      "_id": 2,
+      "name": "Web App Dashboard",
+      "image": "dashboard-screen.png",
+      "brief": "A responsive Web App Dashboard made using JavaScript, sass and jQuery. Also uses additional JS libraries.",
+      "description": "This project combines a sleek and modern design with sass, JavaScript and jQuery to create a demo dashboard for a web application. The page was styled using sass and JavaScript was implemented for interactivity including graphs, autocomplete and local storage. The site is also responsive and works across all major browsers.",
+      "destination": "http://andricokaroulla.com/web-app-dashboard-9/"
+    },
+    {
+      "_id": 3,
+      "name": "Photo Gallery",
+      "image": "photo-gallery-screen.png",
+      "brief": "This responsive Web Gallery uses JavaScript and jQuery for search and overlay functionality.",
+      "description": "A responsive web gallery that allows the user to click on a picture. Clicking the picture displays a light box which in turn displays a caption for its corresponding image. The user can navigate the lightbox using both the mouse or keyboard. The lightbox was coded solely using JavaScript and a plugin was not used. This project also features a real-time search feature also made using JavaScript.",
+      "destination": "http://andricokaroulla.com/photo-gallery-4/"
+    },
+    {
+      "_id": 4,
+      "name": "Registration Form",
+      "image": "interactive-form-screen.png",
+      "brief": "A Registration Form made using HTML5. Utilised modern accessibility tools and CSS transitions for improved UX.",
+      "description": "This project is a responsive web form. It uses modern HTML5 in the form of aria properties and are used to improve the form's accessibility making it more user-friendly especially for visually impaired users. Pseudo-classes were featured heavily in the project and can be seen through CSS transitions on active and hovered items.",
+      "destination": "http://andricokaroulla.com//online-registration-form-3/"
+    },
+    {
+      "_id": 5,
+      "name": "Realtime Chat App",
+      "image": "realtime-chat-app.png",
+      "brief": "A Real Time Chat application that allows multiple users over the internet to communicate with one another",
+      "description": "This project uses Socket.IO (WebSockets) with a Node backend to communicate with the client-side. This allows multiple users to communicate with each over an internet browser. Key features include username functionality, separate rooms, member list and user location information using the GoogleMaps API.",
+      "destination": "https://rico-chat-app.herokuapp.com/"
+    },
+    {
+      "_id": 6,
+      "name": "Interactive Video Player",
+      "image": "video-player-screen.png",
+      "brief": "A multi-function Video Player created using JavaScript, sass and jQuery. Functions include speed adjustment and captions.",
+      "description": "An interactive video player coded from scratch. After being given the video file I styled the website using sass while the functions were created using JavaScript and jQuery. These features include speed adjustment, clickable captions, buffer and seek bar implementation and much more.",
+      "destination": "http://andricokaroulla.com/interactive-video-player-7/"
+    }
+  ],
+  "devIcons": {
+    "proficient": [
+      "skill-images/angular.svg",
+      "skill-images/css.svg",
+      "skill-images/express.svg",
+      "skill-images/git.svg",
+      "skill-images/html.svg",
+      "skill-images/javascript.svg",
+      "skill-images/node.svg",
+      "skill-images/react.svg",
+      "skill-images/sass.svg"
+    ],
+    "familiar": [
+      "skill-images/azure.svg",
+      "skill-images/c.svg",
+      "skill-images/csharp.svg",
+      "skill-images/dotnet.svg",
+      "skill-images/graphql.svg",
+      "skill-images/gulp.svg",
+      "skill-images/heroku.svg",
+      "skill-images/java.svg",
+      "skill-images/mocha.svg",
+      "skill-images/mongo.svg",
+      "skill-images/python.svg",
+      "skill-images/redux.svg",
+      "skill-images/typescript.svg",
+      "skill-images/webpack.svg"
+    ]
+  }
+}
