@@ -1,8 +1,6 @@
 const glob = require('glob');
 const path = require('path');
 
-const debug = process.env.NODE_ENV !== 'production';
-
 module.exports = {
     webpack: (config, { dev }) => {
         config.module.rules.push(
@@ -40,5 +38,5 @@ module.exports = {
             '/': { page: '/' }
         }
     },
-    assetPrefix: !debug ? '' : ''
+    assetPrefix: ''
 };
