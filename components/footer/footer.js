@@ -8,7 +8,7 @@ export default () => (
                 If you have any questions or queries about my work, or would like an interactive website built, then don't hesitate to drop me an email. You can reach out to me on social media via the icons below.
             </p>
             <div className="button-container">
-                <button>Contact Me</button>
+                <a href="mailto:andrico1234@yahoo.co.uk"><button>Contact Me</button></a>
             </div>
             <Images/>
 
@@ -58,6 +58,10 @@ export default () => (
 
                 &:active {
                     box-shadow: inset 0 0 5px 2px rgba(0, 0, 0, 0.3);
+                }
+
+                &:hover {
+                    cursor: pointer;
                 }
             }
         }
