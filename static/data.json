@@ -49,13 +49,33 @@
       "destination": "http://andricokaroulla.com/interactive-video-player-7/"
     }
   ],
-  "aboutMe": [
-    {
-      "about": "About",
-      "profilePic": "img/profile-picture.jpg",
-      "aboutmeTitle": "London Based Front-End Web Developer",
-      "aboutmeParagraphOne": "Treehouse TechDegree graduate who specialises in responsive Front-end Development. Andrico's projects are optimised for both mobile and tablet and are compatible in a variety of browsers. Andrico also commercial experience working with AngularJs and C#. ",
-      "aboutmeParagraphTwo": "Other interests include listening to and playing music, on either guitar or accordion. Andrico also regularly attends courses and classes relating to all aspects of web development and has hopes of becoming full stack. You can get in touch through social media for any freelance work or other enquiries."
-    }
-  ]
+  "devIcons": {
+    "proficient": [
+      "skill-images/angular.svg",
+      "skill-images/css.svg",
+      "skill-images/express.svg",
+      "skill-images/git.svg",
+      "skill-images/html.svg",
+      "skill-images/javascript.svg",
+      "skill-images/node.svg",
+      "skill-images/react.svg",
+      "skill-images/sass.svg"
+    ],
+    "familiar": [
+      "skill-images/azure.svg",
+      "skill-images/c.svg",
+      "skill-images/csharp.svg",
+      "skill-images/dotnet.svg",
+      "skill-images/graphql.svg",
+      "skill-images/gulp.svg",
+      "skill-images/heroku.svg",
+      "skill-images/java.svg",
+      "skill-images/mocha.svg",
+      "skill-images/mongo.svg",
+      "skill-images/python.svg",
+      "skill-images/redux.svg",
+      "skill-images/typescript.svg",
+      "skill-images/webpack.svg"
+    ]
+  }
 }

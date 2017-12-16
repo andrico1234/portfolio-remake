@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 
+import Button from '../button/button';
+
 class ProjectDetail extends Component {
     componentDidMount() {
         this.modalContainer.focus()
@@ -39,9 +41,7 @@ class ProjectDetail extends Component {
                     {currentProject.description}
                 </p>
                 <a href={currentProject.destination}>
-                    <button>
-                        Visit Site
-                    </button>
+                    <Button text="Visit Site" />
                 </a>
                 <hr/>
                 <div className="arrow-container">
@@ -78,6 +78,7 @@ class ProjectDetail extends Component {
                     }
 
                     p {
+                        color: #4d4e4f;
                         font-size: 0.8em;
                         margin: 0 auto;
                         min-height: 115px;
@@ -95,21 +96,6 @@ class ProjectDetail extends Component {
 
                     a {
                         justify-self: center;
-                    }
-
-                    button {
-                        background-color: white;
-                        border: 1px solid #e8535b;
-                        border-radius: 2px;
-                        color: #e8535b;
-                        cursor: pointer;
-                        font-size: 0.9em;
-                        height: 40px;
-                        width: 90px;
-
-                        &:active {
-                            box-shadow: inset 0 0 5px 2px rgba(0, 0, 0, 0.3);
-                        }
                     }
 
                     hr {

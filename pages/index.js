@@ -3,10 +3,11 @@ import Head from '../components/head/head';
 import Header from '../components/header/header';
 import Work from '../components/work/work';
 
-export default () =>
+export default () => (
     <div>
         <Head />
         <Header />
         <Work />
         <Footer />
     </div>
+)

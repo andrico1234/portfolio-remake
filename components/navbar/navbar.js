@@ -1,12 +1,14 @@
-export default () => <nav>
-    <ul>
-        <li>Home</li>
-        <li>Work</li>
-        <li>About</li>
-        <li>Contact</li>
-    </ul>
+export default (props) => {
+    return (
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li><a href="https://github.com/andrico1234">Work</a></li>
+                <li onClick={props.onClick}>About</li>
+                <li><a href="mailto:andrico1234@yahoo.co.uk?Subject=Hello">Contact</a></li>
+            </ul>
 
-    <style jsx>{`
+            <style jsx>{`
         ul {
             margin: 0 auto;
             text-align: center;
@@ -27,4 +29,6 @@ export default () => <nav>
             }
         }
         `}</style>
-</nav>
+        </nav>
+    )
+}
