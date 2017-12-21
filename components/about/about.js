@@ -42,7 +42,7 @@ export default () => (
                     border-radius: 2px;
                     margin: 0 auto;
                     max-width: 400px;
-                    width: 100%;
+                    width: 90%;
                 }
 
                 p {
@@ -56,7 +56,12 @@ export default () => (
                     padding-top: 15px;
                 }
 
+                .aboutMe-one {
+                    padding-bottom: 15px;
+                }
+
                 .aboutMe-two {
+                    display: none;
                     padding-bottom: 15px;
                 }
 
@@ -92,7 +97,6 @@ export default () => (
                         grid-row-end: 6;
                         grid-row-start: 2;
                         margin: inherit;
-                        width: 90%;
                     }
 
                     p {
@@ -105,6 +109,14 @@ export default () => (
                         grid-row-start: 6;
                         margin-left: 0;
                         margin-top: 15px;
+                    }
+
+                    .aboutMe-one {
+                        padding-bottom: inherit;
+                    }
+
+                    .aboutMe-two {
+                        display: block;
                     }
 
                     .skill-item-one, .skill-item-two {
