@@ -52,7 +52,12 @@ class Header extends Component {
                         background-image: url("static/laptop-image-desktop-trans.png");
                         background-repeat: no-repeat;
                         background-position: center;
-                        height: 350px;
+                        background-size: cover;
+                        height: 320px;
+
+                        @media (min-width: 768px) {
+                            height: 350px;
+                        }
                     }
 
                     header {
@@ -72,9 +77,11 @@ class Header extends Component {
                         p {
                             line-height: 1.2;
                             max-width: 440px;
+                            min-height: 84px;
 
                             @media (min-width: 768px) {
                                 line-height: 1.8;
+                                min-height: 0;
                                 width: 60%;
                             }
                         }
