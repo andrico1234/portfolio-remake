@@ -1,4 +1,5 @@
 import Images from './images/images';
+import NewsletterInput from '../newsletterInput/newsletterInput';
 
 export default () => (
     <div className="footer-wrapper">
@@ -7,8 +8,12 @@ export default () => (
             <p>
                 If you have any questions or queries about my work, or would like an interactive website built, then don't hesitate to drop me an email. You can reach out to me on social media via the icons below.
             </p>
+            <p>
+                I regularly publish blog posts on a range of topics related to web development such as Gatsby, Apollo and Graphql.
+            </p>
             <div className="button-container">
-                <a href="mailto:andrico1234@yahoo.co.uk"><button>Contact Me</button></a>
+                <a href="mailto:karoulla.andrico@gmail.com"><button>Contact Me</button></a>
+                <NewsletterInput />
             </div>
             <Images/>
 
@@ -41,6 +46,8 @@ export default () => (
             }
 
             .button-container {
+                display: flex;
+                justify-content: space-between;
                 padding: 15px 0;
                 text-align: center;
                 width: 100%;
@@ -51,17 +58,18 @@ export default () => (
                 border: 1px solid white;
                 border-radius: 1px;
                 color: white;
+                cursor: pointer;
                 height: 45px;
                 padding: 12px 0 20px 0;
                 text-align: center;
                 width: 135px;
 
-                &:active {
-                    box-shadow: inset 0 0 5px 2px rgba(0, 0, 0, 0.3);
-                }
-
                 &:hover {
-                    cursor: pointer;
+                    background-color: #FF7B83;
+                }
+        
+                &:active {
+                    background-color: #C33F47;
                 }
             }
         }
