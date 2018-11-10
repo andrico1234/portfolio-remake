@@ -1,8 +1,14 @@
+const { parsed: localEnv } = require('dotenv').config();
+const webpack = require('webpack');
 const glob = require('glob');
 const path = require('path');
 
 module.exports = {
     webpack: (config, { dev }) => {
+        config.plugins.push(
+            new webpack.EnvironmentPlugin(localEnv)
+        );
+        
         config.module.rules.push(
             {
                 test: /\.(css|scss)/,

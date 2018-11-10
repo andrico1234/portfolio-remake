@@ -1,17 +1,38 @@
 import React from 'react';
+import { sendRequest } from '../../services/sendRequest';
 
 class NewsletterInput extends React.Component {
   constructor() {
     super();
 
     this.state = {
+      hasFormSubmitted: false,
       value: '',
     }
   }
 
-  onSubmit = e => {
+  onSubmit = async e => {
     e.preventDefault();
-    console.log('e', e);
+
+    if (!this.state.value) {
+      // check to see if valid email, if not add error state. 
+      return null;
+    }
+
+    // add NProgress
+    try {
+      await this.subscribeToNewsletter(this.state.value);
+
+      this.setState({
+        hasFormSubmitted: true,
+        value: '',
+      });
+    } catch (err) {
+      this.setState({
+        // error state
+        value: 'err'
+      })
+    }
   }
 
   onChange = ({ target: { value } }) => {
@@ -20,18 +41,28 @@ class NewsletterInput extends React.Component {
     });
   };
 
+  subscribeToNewsletter = async email => {
+    await sendRequest({
+      body: JSON.stringify({
+        email_address: email,
+        status: 'subscribed',
+      })
+    });
+  }
+
   render() {
     return (
       <div className="newsletter">
         <form onSubmit={this.onSubmit}>
-          <input 
+          <input
             className="newsletter__text-input"
             onChange={this.onChange}
-            placeholder="Level up your dev skills!" 
+            value={this.state.value}
+            placeholder={this.state.hasFormSubmitted ? "Thank you!" : "Level up your dev skills!"}
             type="text"
           />
           <button className="newsletter__submit-button" type="submit">
-            <img className="newsletter__submit-button-arrow" src="static/icon-arrow-up.svg"/>
+            <img className="newsletter__submit-button-arrow" src="static/icon-arrow-up.svg" />
           </button>
         </form>
 
