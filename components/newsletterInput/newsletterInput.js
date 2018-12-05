@@ -52,8 +52,8 @@ class NewsletterInput extends React.Component {
 
   render() {
     return (
-      <div className="newsletter">
-        <form onSubmit={this.onSubmit}>
+      <div>
+        <form className="newsletter__form" onSubmit={this.onSubmit}>
           <input
             className="newsletter__text-input"
             onChange={this.onChange}
@@ -67,14 +67,18 @@ class NewsletterInput extends React.Component {
         </form>
 
         <style jsx>{`
+          .newsletter__form {
+            display: flex;
+            justify-content: center;
+          }
+
           .newsletter__text-input {
             border: 1px solid white;
             border-right: none;
             color: black;
-            cursor: pointer;
+            cursor: text;
             height: 19px;
             padding: 12px 8px;
-            position: relative;
             top: -4px;
             width: 200px;
           }
