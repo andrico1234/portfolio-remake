@@ -1,5 +1,5 @@
 import Images from './images/images';
-import NewsletterInput from '../newsletterInput/newsletterInput';
+import MailchimpForm from '../mailchimpForm/mailchimpForm';
 
 export default () => (
     <div className="footer-wrapper">
@@ -13,7 +13,7 @@ export default () => (
             </p>
             <div className="button-container">
                 <a href="mailto:karoulla.andrico@gmail.com"><button>Contact Me</button></a>
-                <NewsletterInput />
+                <MailchimpForm />
             </div>
             <Images/>
 
