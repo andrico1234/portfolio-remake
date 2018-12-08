@@ -1,20 +1,20 @@
 import Button from '../button/button';
-import {devIcons} from '../../static/data.json';
+import { devIcons } from '../../static/data.json';
 import SkillItems from '../skills/skill-items';
 
 export default () => (
     <div className="aboutModal-container">
         <h2>About</h2>
-        <img src="static/profile-picture.jpg"/>
+        <img src="static/profile-picture.jpg" />
         <h3>London Based Full-Stack Web Developer</h3>
         <p className="aboutMe-one">Full-Stack Web Developer currently working in the e-gaming industry. Andrico's projects are optimised for both mobile and tablet incorporating Progressive Web App principles; responsive design, cross-browser support and app-like functionality. These projects use cutting-edge technologies such as ES6+, React16 and Next.js. Andrico also has commercial experience using React, AngularJs, Node and C#. </p>
         <p className="aboutMe-two">His interests include listening to and playing music, on both guitar and accordion. Andrico also regularly attends courses and classes relating to all aspects of Web Development and is planning on giving talks in 2018. You can get in touch through the social media icons below for any freelance work or other enquiries.</p>
-        <a href="mailto:andrico1234@yahoo.co.uk?Subject=Hello"> <Button text="Contact Me"/> </a>
+        <a href="mailto:andrico1234@yahoo.co.uk?Subject=Hello"> <Button text="Contact Me" /> </a>
         <div className='skill-item-one'>
-            <SkillItems name="Proficient with" icons={devIcons.proficient}/>
+            <SkillItems name="Proficient with" icons={devIcons.proficient} />
         </div>
         <div className="skill-item-two">
-            <SkillItems name="Familiar with" icons={devIcons.familiar}/>
+            <SkillItems name="Familiar with" icons={devIcons.familiar} />
         </div>
 
         <style jsx>{`

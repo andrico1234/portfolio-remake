@@ -1,0 +1,14 @@
+{
+  "name": "andri.co",
+  "version": 2,
+  "alias": "andri.co",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/static-build",
+      "config": {
+        "distDir": "out"
+      }
+    }
+  ]
+}

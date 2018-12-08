@@ -209,10 +209,10 @@ template {
 a {
   text-decoration: none;
   color: inherit;
+}
 
-  &:visited {
-    color: inherit;
-  }
+a:visited {
+  color: inherit;
 }
 
 h1, h2, h3, li, p {
