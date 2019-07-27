@@ -8,7 +8,7 @@ class ProjectDetail extends Component {
     }
 
     render() {
-        const currentProject = this.props.details[this.props.modalIndex - 1];
+        const currentProject = this.props.details[this.props.modalIndex];
 
         const keyPress = (e) => {
             if (e.keyCode === 39) {
@@ -34,9 +34,6 @@ class ProjectDetail extends Component {
                     {currentProject.name}
                 </h2>
                 <img className="project-image" src={`static/${currentProject.image}`}/>
-                <h3>
-                    Project {currentProject._id}
-                </h3>
                 <p>
                     {currentProject.description}
                 </p>
@@ -79,11 +76,9 @@ class ProjectDetail extends Component {
 
                     p {
                         color: #4d4e4f;
-                        font-size: 0.8em;
-                        margin: 0 auto;
+                        font-size: 1em;
                         min-height: 115px;
-                        padding: 0 5px 15px 5px;
-                        width: 90%;
+                        padding: 16px 8px;
 
                         @media (min-width: 600px) {
                             min-height: 80px;

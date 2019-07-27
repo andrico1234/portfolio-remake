@@ -1,81 +1,90 @@
 {
   "portfolioProjects": [
     {
-      "_id": 1,
+      "name": "Calisthenics Skill Tree",
+      "image": "calisthenics-skills.jpg",
+      "brief": "A showcase of my beautiful-skill-tree package in the form of a progressive web application.",
+      "description": "This web application use the beautiful-skill-tree package to display a calisthenics skill try. The design of the package allows for users to pass in a simple tree data structure which is then rendered into a responsive, and performant skill tree. The core technology uses Typescripts with up-to-date React (hooks, etc), styled-components, hosted on AWS and CI pipeline using TravisCI. The application also meets Lighthouse's PWA standards, performance, SEO, accessibility, etc.",
+      "destination": "https://calisthenicsskilltree.com/"
+    },
+    {
+      "name": "GO Polly",
+      "image": "polly-rap.jpg",
+      "brief": "An application that would pull in song lyric data via an 3rd party API and turn it to audio via AWS Polly.",
+      "description": "An exploration using both AWS and Golang. This application fetches song lyric information -typically rap songs-, parses it, and sends it off to AWS where it is recited by Polly. This application was to later be made into a Twitter account that would automatically tweet an audio clip.",
+      "destination": "https://github.com/andrico1234/polly-rap"
+    },
+    {
+      "name": "Medium Profile",
+      "image": "medium.jpg",
+      "brief": "The location of my tech writing. Here you can find my articles relating to architecture, local state, React features and more",
+      "description": "The url to my Medium page. Over the course of my development career I've written about various topics, such as developing and deploying a monorepo, using Apollo to handle local state, and the React conference drinking game. I've had my works published by FreeCodeCamp, CodeBurst and Hackajob, and have garnered a total of 50k+ views. ",
+      "destination": "https://medium.com/@andricokaroulla"
+    },
+    {
       "name": "Brockley Cafe Crawl",
-      "image": "fullstack-coffee-app.png",
+      "image": "fullstack-coffee-app.jpg",
       "brief": "A Fullstack Node/React App that details all of the best coffee shops in Brockley",
       "description": "This Progressive Web App works with a variety of browsers on a variety of devices. It aims to be reliable, fast and engaging using progressive functionalities like an App Shell and Service workers. The app uses Redux for state management and sends a request to the Node server to recieve data from a Mongo database.",
       "destination": "http://www.brockleycafecrawl.co.uk/"
     },
     {
-      "_id": 2,
+      "name": "AWS Reference Architecture",
+      "image": "aws-ref-arch.jpg",
+      "brief": "A repo that contained the boilerplate for repeatable infrastructure that was created during the process of learning AWS",
+      "description": "While studying for the AWS developer associate exam, I created a series of small applications with the aims of becoming more familiar with AWS's core services, such as Lambdas, CloudFormation, EC2, SQS, SNS, Polly, CloudFront, etc.",
+      "destination": "https://github.com/andrico1234/aws-reference-architecture"
+    },
+    {
       "name": "Web App Dashboard",
-      "image": "dashboard-screen.png",
+      "image": "dashboard-screen.jpg",
       "brief": "A responsive Web App Dashboard made using JavaScript, sass and jQuery. Also uses additional JS libraries.",
       "description": "This project combines a sleek and modern design with sass, JavaScript and jQuery to create a demo dashboard for a web application. The page was styled using sass and JavaScript was implemented for interactivity including graphs, autocomplete and local storage. The site is also responsive and works across all major browsers.",
-      "destination": "http://andricokaroulla.com/web-app-dashboard-9/"
+      "destination": "http://web-app-dashboard.s3-website.eu-west-2.amazonaws.com/"
     },
     {
-      "_id": 3,
       "name": "Photo Gallery",
-      "image": "photo-gallery-screen.png",
+      "image": "photo-gallery-screen.jpg",
       "brief": "This responsive Web Gallery uses JavaScript and jQuery for search and overlay functionality.",
       "description": "A responsive web gallery that allows the user to click on a picture. Clicking the picture displays a light box which in turn displays a caption for its corresponding image. The user can navigate the lightbox using both the mouse or keyboard. The lightbox was coded solely using JavaScript and a plugin was not used. This project also features a real-time search feature also made using JavaScript.",
-      "destination": "http://andricokaroulla.com/photo-gallery-4/"
+      "destination": "http://photo-gallery-project.s3-website.eu-west-2.amazonaws.com/"
     },
     {
-      "_id": 4,
       "name": "Registration Form",
-      "image": "interactive-form-screen.png",
+      "image": "interactive-form-screen.jpg",
       "brief": "A Registration Form made using HTML5. Utilised modern accessibility tools and CSS transitions for improved UX.",
       "description": "This project is a responsive web form. It uses modern HTML5 in the form of aria properties and are used to improve the form's accessibility making it more user-friendly especially for visually impaired users. Pseudo-classes were featured heavily in the project and can be seen through CSS transitions on active and hovered items.",
-      "destination": "http://andricokaroulla.com//online-registration-form-3/"
+      "destination": "http://online-registration-form.s3-website.eu-west-2.amazonaws.com/"
     },
     {
-      "_id": 5,
       "name": "Realtime Chat App",
-      "image": "realtime-chat-app.png",
+      "image": "realtime-chat-app.jpg",
       "brief": "A Real Time Chat application that allows multiple users over the internet to communicate with one another",
       "description": "This project uses Socket.IO (WebSockets) with a Node backend to communicate with the client-side. This allows multiple users to communicate with each over an internet browser. Key features include username functionality, separate rooms, member list and user location information using the GoogleMaps API.",
       "destination": "https://rico-chat-app.herokuapp.com/"
     },
     {
-      "_id": 6,
       "name": "Interactive Video Player",
-      "image": "video-player-screen.png",
+      "image": "video-player-screen.jpg",
       "brief": "A multi-function Video Player created using JavaScript, sass and jQuery. Functions include speed adjustment and captions.",
       "description": "An interactive video player coded from scratch. After being given the video file I styled the website using sass while the functions were created using JavaScript and jQuery. These features include speed adjustment, clickable captions, buffer and seek bar implementation and much more.",
-      "destination": "http://andricokaroulla.com/interactive-video-player-7/"
+      "destination": "http://video-interactive-caption.s3-website.eu-west-2.amazonaws.com/"
     }
   ],
   "devIcons": {
     "proficient": [
-      "skill-images/angular.svg",
+      "skill-images/aws.svg",
       "skill-images/css.svg",
-      "skill-images/express.svg",
       "skill-images/git.svg",
+      "skill-images/go.svg",
+      "skill-images/graphql.svg",
       "skill-images/html.svg",
       "skill-images/javascript.svg",
+      "skill-images/mongo.svg",
       "skill-images/node.svg",
       "skill-images/react.svg",
-      "skill-images/sass.svg"
-    ],
-    "familiar": [
-      "skill-images/azure.svg",
-      "skill-images/c.svg",
-      "skill-images/csharp.svg",
-      "skill-images/dotnet.svg",
-      "skill-images/graphql.svg",
-      "skill-images/gulp.svg",
-      "skill-images/heroku.svg",
-      "skill-images/java.svg",
-      "skill-images/mocha.svg",
-      "skill-images/mongo.svg",
-      "skill-images/python.svg",
-      "skill-images/redux.svg",
-      "skill-images/typescript.svg",
-      "skill-images/webpack.svg"
+      "skill-images/sass.svg",
+      "skill-images/typescript.svg"
     ]
   }
 }

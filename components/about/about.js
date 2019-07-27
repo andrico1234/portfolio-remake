@@ -7,14 +7,11 @@ export default () => (
         <h2>About</h2>
         <img src="static/profile-picture.jpg" />
         <h3>London Based Full-Stack Web Developer</h3>
-        <p className="aboutMe-one">Full-Stack Web Developer currently working in the e-gaming industry. Andrico's projects are optimised for both mobile and tablet incorporating Progressive Web App principles; responsive design, cross-browser support and app-like functionality. These projects use cutting-edge technologies such as ES6+, React16 and Next.js. Andrico also has commercial experience using React, AngularJs, Node and C#. </p>
-        <p className="aboutMe-two">His interests include listening to and playing music, on both guitar and accordion. Andrico also regularly attends courses and classes relating to all aspects of Web Development and is planning on giving talks in 2018. You can get in touch through the social media icons below for any freelance work or other enquiries.</p>
-        <a href="mailto:andrico1234@yahoo.co.uk?Subject=Hello"> <Button text="Contact Me" /> </a>
+        <p className="aboutMe-one">Hey! I'm a full-stack web developer working at Trint, an audio-to-text transcription platform. My projects are often optimised for the responsive web, following progressive web application principles; responsive design, seo, accessibility, performance and app-like functionality. These projects use cutting-edge technologies such as Typescript, React, AWS, MongoDB and Golang. </p>
+        <p className="aboutMe-two">Outside of tech, my interests include listening to and playing music, on both guitar and accordion. I'm also a fitness enthusiast, taking part in Tough Mudders, practicing calisthenics and unwinding with yoga. I love writing about code, attending conferences and have even taken part in delivering talks. You can get in touch through the social media icons below for any freelance work or other enquiries.</p>
+        <a href="mailto:karoulla.andrico@ygmail.com?Subject=Hello"> <Button text="Contact Me" /> </a>
         <div className='skill-item-one'>
             <SkillItems name="Proficient with" icons={devIcons.proficient} />
-        </div>
-        <div className="skill-item-two">
-            <SkillItems name="Familiar with" icons={devIcons.familiar} />
         </div>
 
         <style jsx>{`
@@ -57,10 +54,12 @@ export default () => (
                 }
 
                 .aboutMe-one {
+                    font-size: 1em;
                     padding-bottom: 15px;
                 }
 
                 .aboutMe-two {
+                    font-size: 1em;
                     display: none;
                     padding-bottom: 15px;
                 }
