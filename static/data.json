@@ -5,7 +5,7 @@
       "image": "calisthenics-skills.jpg",
       "brief": "A showcase of my beautiful-skill-tree package in the form of a progressive web application.",
       "description": "This web application use the beautiful-skill-tree package to display a calisthenics skill try. The design of the package allows for users to pass in a simple tree data structure which is then rendered into a responsive, and performant skill tree. The core technology uses Typescripts with up-to-date React (hooks, etc), styled-components, hosted on AWS and CI pipeline using TravisCI. The application also meets Lighthouse's PWA standards, performance, SEO, accessibility, etc.",
-      "destination": "https://calisthenicsskilltree.com/"
+      "destination": "https://calisthenicsskills.com/"
     },
     {
       "name": "GO Polly",
