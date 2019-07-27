@@ -4,8 +4,15 @@
       "name": "Calisthenics Skill Tree",
       "image": "calisthenics-skills.jpg",
       "brief": "A showcase of my beautiful-skill-tree package in the form of a progressive web application.",
-      "description": "This web application use the beautiful-skill-tree package to display a calisthenics skill try. The design of the package allows for users to pass in a simple tree data structure which is then rendered into a responsive, and performant skill tree. The core technology uses Typescripts with up-to-date React (hooks, etc), styled-components, hosted on AWS and CI pipeline using TravisCI. The application also meets Lighthouse's PWA standards, performance, SEO, accessibility, etc.",
+      "description": "This web application uses my beautiful-skill-tree package to display a calisthenics skill tree. The design of the package allows for users to pass in a simple tree data structure which is then rendered into a responsive and performant skill tree. The core technology uses Typescripts with up-to-date React (hooks, etc), styled-components, hosted on AWS and CI pipeline using TravisCI. The application also meets Lighthouse's PWA standards, performance, SEO, accessibility, etc.",
       "destination": "https://calisthenicsskills.com/"
+    },
+    {
+      "name": "Pride in London",
+      "image": "pride.jpg",
+      "brief": "A Gatsby application that was created by a group of volunteers for Pride 2018",
+      "description": "This application was created by volunteers (including myself) using Gatsby and React. The purpose was to replace the slow Squarespace site that was used in previous years. The site needed to be fast, responsive, and able to handle a large load of users.",
+      "destination": "https://prideinlondon.org/"
     },
     {
       "name": "GO Polly",

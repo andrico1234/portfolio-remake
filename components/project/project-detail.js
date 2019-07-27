@@ -37,7 +37,7 @@ class ProjectDetail extends Component {
                 <p>
                     {currentProject.description}
                 </p>
-                <a href={currentProject.destination}>
+                <a target="_blank" rel="noopener noreferrer" href={currentProject.destination}>
                     <Button text="Visit Site" />
                 </a>
                 <hr/>
